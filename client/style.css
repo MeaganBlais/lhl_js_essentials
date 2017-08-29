@@ -1,0 +1,57 @@
+body {
+  background-color: rosybrown;
+  color: #303030;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  margin: 20px
+}
+
+main {
+  background-color: #f0f0f0;
+  margin: 20px auto;
+  max-width: 450px;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 3px 3px 12px #c8c8c8;
+}
+
+#history {
+  list-style-type: none;
+  width:auto;
+  margin-bottom: 20px auto;
+  margin-top 0;
+}
+
+li {
+  padding: 10px;
+}
+
+li:nth-child(odd) {
+  background-color: #e3e3e3;
+  border-radius: 6px;
+}
+
+form {
+  background-color: lightsteelblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#initials {
+  width: 50px;
+}
+
+#message {
+  width: 305px;
+}
